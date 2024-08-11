@@ -1,0 +1,11 @@
+def on_button_pressed_a():
+    basic.show_number(3)
+    basic.pause(100)
+    basic.show_number(2)
+    basic.pause(100)
+    basic.show_number(1)
+    basic.pause(100)
+    basic.show_number(0)
+    basic.pause(100)
+    basic.show_icon(IconNames.YES)
+input.on_button_pressed(Button.A, on_button_pressed_a)
